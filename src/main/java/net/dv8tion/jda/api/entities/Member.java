@@ -353,7 +353,7 @@ public interface Member extends IMentionable, IPermissionHolder, UserSnowflake
      * @see    Guild#removeRoleFromMember(UserSnowflake, Role)
      * @see    Guild#modifyMemberRoles(Member, Collection, Collection)
      */
-    boolean hasRoles(@Nonnull Role roles...);
+    boolean hasRoles(@Nonnull Role... roles);
 
     /**
      * The {@link java.awt.Color Color} of this Member's name in a Guild.
